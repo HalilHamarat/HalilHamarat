@@ -11,30 +11,32 @@
 ############################################################
 # DEĞİŞKEN TANIMLAMA KURALLARI
 
-# Rakam İle Başlayamaz !
+ # Rakam İle Başlayamaz !
 
-# 1say = 85
-# print(1sayi)
-#
-# sayi1 = 85
-# print(sayi1)
-###          ###
+ # 1say = 85
+ # print(1sayi)
+ #
+ # sayi1 = 85
+ # print(sayi1)
+ ###          ###
 
-#Büyük Küçük Harflere Duyarlıdır ! !
+ #Büyük Küçük Harflere Duyarlıdır ! !
 
-# number = 12
-# NUMBER = 15
-#
-# print(number)
-# print(NUMBER)
-###          ###
+ # number = 12
+ # NUMBER = 15
+ #
+ # print(number)
+ # print(NUMBER)
+ ###          ###
 
-#Türkçe Karakter Kullanılamaz ! ! !
-#yaş = 18 hatalı kullanımdır
-yas = 18 #Türkçe Karakter Olmadan Türkçe Yazmak (TAVSİYE EDİLMEZ)
-age = 17
-print(yas)
-print(age)
+ #Türkçe Karakter Kullanılamaz ! ! !
+
+ #yaş = 18 hatalı kullanımdır
+
+ # yas = 18 #Türkçe Karakter Olmadan Türkçe Yazmak (TAVSİYE EDİLMEZ)
+ # age = 17
+ # print(yas)
+ # print(age)
 
 #DEĞİŞKENLERDEKİ VERİLERİ BİRLEŞTİRME
 
@@ -44,6 +46,6 @@ ad = "Eren" #String
 sinav_basarili_mi = True #boolean (bool)
 
 print(x+y)
-print(x+ad)
+#print(x+ad)  hata verdi (int ile str birleştirilemez)
 print(x+sinav_basarili_mi)
-print(ad+sinav_basarili_mi)
+#print(ad+sinav_basarili_mi) hata verdi (TypeError: can only concatenate str (not "bool") to str)
