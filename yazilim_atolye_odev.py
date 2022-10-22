@@ -22,7 +22,7 @@ print(url[28])
 yemek = "köfte"
 isim = "halil"
 
-print("Adınız: " + isim + ", Yaşınız: " + str(yemek))
+print("Adınız: " + isim + ", En Sevdiğiniz Yemek: " + str(yemek))
 
 
 # 5- Öğrencinin 2 sınav notunu alın. Notunu hesaplayıp cümle içinde yazdırın.
