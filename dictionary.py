@@ -47,3 +47,15 @@ kisiler = {
 print(kisiler[1]["Dersler"])
 print(kisiler[45]["Dersler"])
 print(kisiler[36]["Dersler"])
+
+veri_tipi= {
+    "ikinci" : {
+
+    },
+    "üçüncü" : {
+
+
+    }
+}
+print(veri_tipi)
+
