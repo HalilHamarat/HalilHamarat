@@ -26,6 +26,9 @@ print(paragraflar[0].split("."))
 # 7- Öğrenci isim ve yaş bilgilerinden oluşan listeleri birleştirelim
 ogrenci_1 = ["Ahmet", 12]
 ogrenci_2 = ["Ayşe", 16]
+birlesmis = ogrenci_1 + ogrenci_2
+
+
 
 # 8- Birleştirilmiş listeden ikinci öğrencinin yaşını ekrana yazdıralım
-#print(ogrenci_2({}, {} ))
+print("birlesmis" ({2}, {0} ))
