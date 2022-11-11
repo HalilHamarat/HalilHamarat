@@ -14,15 +14,21 @@ print(len(paragraflar))
 # 3- "bilgi" değişkenindeki metni küçük harfe çevirdiğimizde,
 # "python" kelimesi kaç defa geçiyor?
 print(paragraflar[0].lower().count("python"))
-
+"""
 # 4- Kullanıcıdan input ile aralarına virgül koydurarak meyve isimleri alın.
-Fruit_names = list(input("Meyve"))
-
+Fruit_names = []
+Fruit_name = input("Meyve :")
+Fruit_names.append(Fruit_name + ",")
 print(list(Fruit_names))
 
 # Bu meyve isimlerini listeye çevirin. İsimlerini alfabetik olarak sıralayın.
-
+print(Fruit_names)
+Fruit_names.sort()
+print(Fruit_names)
 # 5- Meyve isimlerini alfabetik olarak ters sıralayın.
+Fruit_names.sort(reverse=True)
+print(Fruit_names)
+"""
 
 ogrenciler = ["Ahmet", "Mehmet", "Funda", "Bekir", "Halime", "Kasım", "Yeşim", "Eylül"]
 # 6- "ogrenciler" listesinin 3 numaralı indise sahip elemanı(BEKIR)nı silin.
