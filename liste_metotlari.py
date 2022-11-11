@@ -59,6 +59,8 @@ print("-"*50)
 isimler = ["Eren", "Ersin", "Ahmet", "Kaan"]
 isimler.sort()
 print(isimler)
+isimler.sort(reverse=True)
+print(isimler)
 
 #listeyi temizleyelim clear()
 isimler.clear()
