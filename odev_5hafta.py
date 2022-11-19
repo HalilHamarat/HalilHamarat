@@ -14,13 +14,13 @@ print(len(paragraflar))
 # 3- "bilgi" değişkenindeki metni küçük harfe çevirdiğimizde,
 # "python" kelimesi kaç defa geçiyor?
 print(paragraflar[0].lower().count("python"))
-"""
-# 4- Kullanıcıdan input ile aralarına virgül koydurarak meyve isimleri alın.
-Fruit_names = []
-Fruit_name = input("Meyve :")
-Fruit_names.append(Fruit_name + ",")
-print(list(Fruit_names))
 
+# 4- Kullanıcıdan input ile aralarına virgül koydurarak meyve isimleri alın.
+print("Lütfen Yazacağınız Meyvelerin Arasına "," Koyunuz...")
+Fruit_names = input("Meyve :")
+Fruit_names.split(",")
+print(Fruit_names)
+"""
 # Bu meyve isimlerini listeye çevirin. İsimlerini alfabetik olarak sıralayın.
 print(Fruit_names)
 Fruit_names.sort()
@@ -39,6 +39,8 @@ ogrenciler.append("Ali")
 print(ogrenciler)
 # 8- "ogrenciler" listesinin 5 numaralı indis konumuna "Fatma" ekleyin
 ogrenciler.insert(5 ,"Fatma")
+print(ogrenciler)
+ogrenciler.sort()
 print(ogrenciler)
 hesaplar = {
     "youtube": {
@@ -93,11 +95,9 @@ print(str(Bilgi_Takipci_Instagram + Bilgi_Takip_Instagram ) )
 
 # 13- TAİHL sosyal medya hesaplarındaki toplam abone ve takipçi
 # sayılarını ekrana yazdıralım
-"""
-(hesaplar["youtube"]["abone"])
-(hesaplar["youtube"]["görüntülenme"])
-(hesaplar["facebook"]["takipçi"])
-(hesaplar["instagram"]["takipçi"])
-(hesaplar["instagram"]["takip"])
-(hesaplar["instagram"]["gönderi"])
-"""
+
+z = (hesaplar["youtube"]["abone"])
+c = (hesaplar["facebook"]["takipçi"])
+v = (hesaplar["instagram"]["takipçi"])
+
+print(z + c + v )
