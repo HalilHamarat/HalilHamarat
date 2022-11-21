@@ -18,17 +18,17 @@ print(paragraflar[0].lower().count("python"))
 # 4- Kullanıcıdan input ile aralarına virgül koydurarak meyve isimleri alın.
 print("Lütfen Yazacağınız Meyvelerin Arasına "," Koyunuz...")
 Fruit_names = input("Meyve :")
-Fruit_names.split(",")
+newFrtNms = Fruit_names.replace(" ","").split(",")
 print(Fruit_names)
-"""
+
 # Bu meyve isimlerini listeye çevirin. İsimlerini alfabetik olarak sıralayın.
-print(Fruit_names)
-Fruit_names.sort()
-print(Fruit_names)
+
+newFrtNms.sort()
+print(newFrtNms)
 # 5- Meyve isimlerini alfabetik olarak ters sıralayın.
-Fruit_names.sort(reverse=True)
-print(Fruit_names)
-"""
+newFrtNms.sort(reverse=True)
+print(newFrtNms)
+
 
 ogrenciler = ["Ahmet", "Mehmet", "Funda", "Bekir", "Halime", "Kasım", "Yeşim", "Eylül"]
 # 6- "ogrenciler" listesinin 3 numaralı indise sahip elemanı(BEKIR)nı silin.
