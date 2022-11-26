@@ -1,4 +1,4 @@
-# Kaynak: https://tr.wikipedia.org/wiki/Python
+    # Kaynak: https://tr.wikipedia.org/wiki/Python
 bilgi = """Python, nesne yönelimli, yorumlamalı, birimsel (modüler) ve etkileşimli yüksek seviyeli bir programlama dilidir.
 Girintilere dayalı basit söz dizimi, dilin öğrenilmesini ve akılda kalmasını kolaylaştırır. Bu da ona söz diziminin ayrıntıları ile vakit yitirmeden programlama yapılmaya başlanabilen bir dil olma özelliği kazandırır.
 Modüler yapısı, sınıf dizgesini (sistem) ve her türlü veri alanı girişini destekler. Hemen hemen her türlü platformda çalışabilir (Unix, Linux, Mac, Windows, Amiga, Symbian). Python ile sistem programlama, kullanıcı arabirimi programlama, ağ programlama, web programlama, uygulama ve veri tabanı yazılımı programlama gibi birçok alanda yazılım geliştirebilirsiniz. Büyük yazılımların hızlı bir şekilde prototiplerinin üretilmesi ve denenmesi gerektiği durumlarda da C ya da C++ gibi dillere tercih edilir.
@@ -28,7 +28,6 @@ print(newFrtNms)
 # 5- Meyve isimlerini alfabetik olarak ters sıralayın.
 newFrtNms.sort(reverse=True)
 print(newFrtNms)
-
 
 ogrenciler = ["Ahmet", "Mehmet", "Funda", "Bekir", "Halime", "Kasım", "Yeşim", "Eylül"]
 # 6- "ogrenciler" listesinin 3 numaralı indise sahip elemanı(BEKIR)nı silin.
