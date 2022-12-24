@@ -1,2 +1,5 @@
 
 *.txt
+.idea
+log.txt
+temel_seviye/log.txt
