@@ -12,10 +12,6 @@ from selenium.webdriver.common.by import By
 from time import sleep
 from moduller.tarayici import Tarayici
 
-
-
-
-
 # tarayıcıyı oluştur
 tarayici_nesne = Tarayici()
 tarayici = tarayici_nesne.al()
@@ -39,7 +35,7 @@ for i, tarih in enumerate(tarihler):
     tarih = tarayici.find_element(By.XPATH, f"//div[@class='subButtonArea subButtonArea-5 active']//a[{i+1}]")
     tarayici.execute_script("arguments[0].click();", tarih)
     # tarih.click()   sayfa yenileniyor
-    sleep(1)
+
 
     # 3.1 ürünler içinde aşağıdaki işlemleri yap
     urunler = tarayici.find_elements(By.XPATH, "//div[contains(@class, 'product')]")
